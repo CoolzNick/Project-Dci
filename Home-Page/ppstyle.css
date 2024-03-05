@@ -1,0 +1,230 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: url("../images/traveling-greece-concept-with-greek-flag.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: auto;
+  padding: 0px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 3em;
+  color: #f9f6f6;
+  cursor: default;
+}
+
+.logo span {
+  color: #a8cdff;
+  text-decoration: dotted;
+}
+
+.navigation {
+  background-color: #7796dc;
+  margin: auto;
+  border: 2px solid rgb(6, 6, 132);
+  border-radius: 10px;
+}
+
+.navigation a {
+  font-size: 2.1em;
+  color: #e9e2e2;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.navigation a:hover {
+  color: #c3d9dc;
+  background-color: #02204a;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition-duration: 0.5s;
+}
+
+.home {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+
+.content {
+  max-width: 500px;
+  color: #ffffff;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-size: 3em;
+}
+
+.content h2 span {
+  color: #e4e6e9;
+}
+
+.content h3 {
+  font-size: 2em;
+}
+
+.content p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 10px 0 50px 0;
+}
+
+.content p span:hover {
+  width: 160px;
+  height: 25px;
+  font-size: 30px;
+  font-family: "Georgia";
+  transition-duration: 0.5s;
+  position: inherit;
+  background: transparent;
+  box-shadow: 10px 10px 10px rgb(182, 211, 224);
+  
+}
+
+.btn-group a {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+  background: #2d0462;
+  border-radius: 10px;
+  border: 2px solid #24034f;
+}
+
+.btn-group a:hover:nth-child(1) {
+  color: #e8e4ed;
+  background: transparent;
+  box-shadow: 10px 10px 10px black;
+  transition-duration: 0.5s;
+}
+
+.btn-group a:nth-child(2) {
+  color: #e8e8eb;
+  background: rgb(1, 1, 87);
+  margin-left: 30px;
+  padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+  color: #bebdc8;
+  background: transparent;
+  box-shadow: 10px 10px 10px black;
+  transition-duration: 0.5s;
+}
+
+.photos {
+  position: relative;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.photos:hover {
+  margin-bottom: 20px;
+  box-shadow: 25px 25px 30px black;
+  transition-duration: 0.7s;
+}
+
+.logo1 {
+  font-size: 1em;
+  color: #f9f6f6;
+}
+
+.event-photos {
+  display: flex;
+  position: relative;
+}
+.home p span:hover {
+  border-radius: 10px;
+  background-color: transparent;
+  transition-duration: 0.7s;
+}
+
+.event-photos img {
+  width: 250px;
+}
+
+.photos-nav iframe {
+  border-radius: 50%;
+}
+
+.photos-nav iframe:hover {
+  width: 400px;
+  height: 400px;
+  box-shadow: 25px 25px 30px black;
+  transition: 0.7s ease-out 0s;
+}
+
+.event-photos iframe {
+  border: none;
+  border-radius: 10px;
+}
+
+.photos iframe {
+  border: none;
+  border-radius: 10px;
+}
+
+.photos img {
+  border: none;
+  border-radius: 10px;
+}
+.footer {
+  
+  font-size: xx-large;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.footer .facebook {
+  color: #1877f2; 
+}
+
+.footer .whatsapp {
+  color: #25d366; 
+}
+
+.footer .twitter {
+  color: #1877f2
+  
+}
+.footer :hover {
+  background-color: #bac1c7;
+  border-radius: 10px;
+  transition-duration: 0.7s;
+}
